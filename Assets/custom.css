@@ -5,7 +5,7 @@
 
 body {
     background-color: #eaeaea;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -13,18 +13,29 @@ h2 {
     color: #42596F;
     margin: 20px 0px 0px 20px;
     font-family: 'Roboto';
+    font-weight: bold;
 }
 
+/* Hero section */
+
 .jumbotron {
+    margin-top: 0;
     text-align: center;
     color: white;
     width: 100%;
     background: url(./Images/20200301_112406.jpg);
     min-height:100%;
-    /* height: 300px; */
     background-position: center;
     background-size:cover;
     box-shadow:inset 0 0 0 2000px rgba(22, 29, 44, 0.6);
+}
+
+.logo {
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 
@@ -37,13 +48,15 @@ h2 {
     margin-top: 40px;
 }
 
+/* Images */
+
 .profile-pic {
     border: solid 1px #eaeaea;
     padding: 5px;
     width: 200px;
     height: 200px;
     float: left;
-    margin: 0 20px;
+    margin: 0 20px 20px 20px;
 }
 
 .thumbnail {
@@ -55,28 +68,24 @@ h2 {
     margin: 1.66%;
     transition: all .2s ease-in-out;
 }
-
-.thumbnail-horror {
-    background: url(./Images/20200301_112406.jpg);
-    border: solid 1px #eaeaea;
-    width: 340px;
-    height: 340px;
-    float: left;
-    margin: 1.66%;
-    transition: all .2s ease-in-out;
-    background-position: center;
-    background-size:cover;
-}
     
 .thumbnail:hover {
     transform: scale(1.1); 
     }
+
+/* Contact form */
 
 form {
     padding: 16px   ;
     width: 600px;
     margin: 0 20px;
 }
+
+.form-group label {
+    font-weight: 700;
+}
+
+/* Buttons */
 
 .btn-primary {
     font-family: 'Roboto', serif;
@@ -95,6 +104,6 @@ form {
     background-color: white;
 }
 
-.form-group label {
-    font-weight: 700;
+.card-text {
+    padding: 16px;
 }

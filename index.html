@@ -7,8 +7,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <!-- Font Awesome Javascript file -->
+        <script src="https://kit.fontawesome.com/7f0beb1649.js" crossorigin="anonymous"></script>
       <!-- Google Fonts stylesheet -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
       <!-- Bootstrap stylesheet -->
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <!-- Custom Styles -->
@@ -16,44 +18,47 @@
     </head>
     <body>
 
-        <!-- Navbar -->
+      <!-- Navbar -->
 
-      <header>
-        <nav class="navbar sticky-top navbar-expand-lg shadow-sm bg-white rounded navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="https://mir-s3-cdn-cf.behance.net/user/230/1510169.53b4dd04072af.png"  id="logo" class="rounded-circle" width= "50px" height="50px" alt="Dave Powell">
-            </a>
-            <span class="navbar-brand mb-0 h1">Dave Powell</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>  
+      <nav class="navbar sticky-top navbar-expand-lg shadow-sm mb-5 bg-white rounded navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://mir-s3-cdn-cf.behance.net/user/230/1510169.53b4dd04072af.png" class="rounded-circle logo" width= "50px" height="50px" alt="Dave Powell">
+        </a>
 
-          <!-- Hero Section -->
+      <span class="navbar-brand mb-0 h1">Dave Powell</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-        <figure>
-          <div class="jumbotron jumbotron-fluid">
-            <!-- <h1 class="display-4">Dave Powell</h1> -->
-            <p class="lead">I am a designer, developer, musician and a horror movie freak. I live in Texas.</p>
-            <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
-          </div>
-        </figure>
+      <!-- Hero Section -->
 
-          <!-- About Me Card -->
+      <figure>
+        <div class="jumbotron jumbotron-fluid">
+          <p class="lead">I am a designer, developer, musician and a horror movie freak. I live in Texas.</p>
+          <br>
+          <a class="btn btn-primary btn-lg" href="contact.html" role="button">Contact Me
+            <svg width=".75em" height=".75em" viewBox="0 0 16 16" class="bi bi-pencil-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+            </svg>
+          </a>
+        </div>
+      </figure>
+
+      <!-- About Me Card -->
 
         <article>
           <div class="container">
@@ -68,14 +73,40 @@
                 <div class="col-md-12">
                   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGj5NQ6rTBBSw/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=vmd4Otm-Fd6FD2OiYzykfob9vMozNd_k4p0nwx1PBO8" class="profile-pic" alt="Dave Powell">
                    <div class="card-body">
-                      <p class="card-text">Bacon ipsum dolor amet pork chop chislic beef strip steak tail. Leberkas chislic hamburger ground round pork belly brisket chicken rump. Kielbasa flank leberkas sirloin short loin ham hock beef chicken burgdoggen. Beef ribs cow ball tip drumstick doner hamburger chicken short loin leberkas shankle pig pork loin andouille. Shank tenderloin doner chislic, buffalo cupim pork cow meatloaf sirloin fatback burgdoggen beef ribs ball tip. Meatball kielbasa flank jowl bacon beef ribs sausage tri-tip cow.</p>
-                       <p class="card-text">Chuck meatball flank, burgdoggen spare ribs brisket picanha boudin beef chislic cow hamburger frankfurter pork loin. Chislic shankle pork belly strip steak, ball tip jowl doner turkey meatloaf. Rump ham hock sirloin, meatball spare ribs pastrami drumstick sausage tenderloin shank turducken andouille turkey shoulder ham. Picanha pork strip steak beef ribs pork loin pork belly turducken meatloaf jowl tri-tip porchetta alcatra prosciutto doner. Ball tip hamburger sausage corned beef. Pancetta meatloaf buffalo turkey porchetta beef bresaola short ribs ground round shankle ball tip alcatra. Picanha turducken boudin beef, shank short ribs pork loin kevin capicola.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
+
+                      <p class="card-text">Web/UI/UX Designer leveraging many years of creative design, digital marketing, development,
+                        concepting and problem solving from initial idea to final implementation. Knowledgeable about a
+                        wide range of design and testing approaches. Experience in mobile and responsive design.
+                        <br><br>
+                        Design has been a passion for me for a long time and I am still always learning from my colleagues
+                          and am inspired by new technologies and designs.
+                          <br><br>
+                          After many years of fun, creative projects, I started to work for larger corporations. This required more and more UX design. After a while of working for Sabre, I became burnt out on UI/UX design due to certain processes, churn, and internal teams working against each other on a daily basis, etc etc etc.. I became more interested in development while working on projects that included very data dense applications. There wasn't a whole lot of room for fun, creative design during this process. I am now more interested in re-entering the tech field from a developer angle while still having a "design eye".
+                      </p>
+                
+      <!-- Social Media Links -->
+
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="https://www.linkedin.com/in/dave-powell-842b455" target="_blank">
+             <span style="font-size: 2em; color: #42596F;">
+              <i class="fab fa-linkedin"></i>
+            </span>
+            </a>
+            <a href="https://www.behance.net/DavePowell" target="_blank">
+            <span style="font-size: 2em; color: #42596F;">
+              <i class="fab fa-behance-square"></i>
+            </span>
+            </a>
+            <a href="https://www.instagram.com/evadllewop/?hl=en" target="_blank">
+              <span style="font-size: 2em; color: #42596F;">
+                <i class="fab fa-instagram-square"></i>
+              </span>
+            </a>
           </div>
-        </article>
+         </div>
+      </section>  
           
         <!-- JQuery -->
 

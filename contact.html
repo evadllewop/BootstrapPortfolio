@@ -7,74 +7,92 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <!-- Google Fonts stylesheet -->
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-     <!-- Bootstrap stylesheet -->
+    <!-- Font Awesome Javascript file -->
+      <script src="https://kit.fontawesome.com/7f0beb1649.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts stylesheet -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap stylesheet -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     <!-- Custom Styles -->
+    <!-- Custom Styles -->
       <link rel="stylesheet" href="./Assets/custom.css">
     </head>
-
     <body>
 
     <!-- Navbar -->
 
-      <header>
-        <nav class="navbar sticky-top navbar-expand-lg shadow-sm mb-5 bg-white rounded navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src="https://mir-s3-cdn-cf.behance.net/user/230/1510169.53b4dd04072af.png" class="rounded-circle" width= "50px" height="50px" alt="Dave Powell">
-          </a>
-          <span class="navbar-brand mb-0 h1">Dave Powell</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header> 
+    <nav class="navbar sticky-top navbar-expand-lg shadow-sm mb-5 bg-white rounded navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://mir-s3-cdn-cf.behance.net/user/230/1510169.53b4dd04072af.png" class="rounded-circle logo" width= "50px" height="50px" alt="Dave Powell">
+      </a>
+      <span class="navbar-brand mb-0 h1">Dave Powell</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+       </div>
+    </nav>
 
     <!-- Contact Form -->
 
-      <section>
-        <div class="container">
-          <div class="card mb-3">
-            <div class="row">
-          <div class="col-md-12">
-            <h2>Contact</h2>
-          </div>
-        </div>
-          <hr class="my-4">
+    <section>
+      <div class="container">
+        <div class="card mb-3">
           <div class="row">
-      <form>
-        <div class="form-group">
-          <label for="inputdefault">Name</label>
-          <input type="text" class="form-control" id="inputdefault">
+        <div class="col-md-10">
+            <h2>Contact</h2>
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="input-lg" placeholder="name@example.com">
-        </div>     
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </div>
+        <hr class="my-4">
+        <div class="row">
+    <form>
+      <div class="form-group">
+        <label for="inputdefault">Name</label>
+        <input type="text" class="form-control" id="inputdefault">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="input-lg" placeholder="name@example.com">
+      </div>     
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <br>
+
+      <!-- Social Media Links -->
+
+      <section>
+        <a href="https://www.linkedin.com/in/dave-powell-842b455" target="_blank">
+          <span style="font-size: 2em; color: #42596F;">
+            <i class="fab fa-linkedin"></i>
+          </span>
+        </a>
+          <a href="https://www.behance.net/DavePowell" target="_blank">
+          <span style="font-size: 2em; color: #42596F;">
+            <i class="fab fa-behance-square"></i>
+          </span>
+        </a>
+        <a href="https://www.instagram.com/evadllewop/?hl=en" target="_blank">
+          <span style="font-size: 2em; color: #42596F;">
+            <i class="fab fa-instagram-square"></i>
+          </span>
+        </a>
         </form>
-        </div>
-        </div>
-        </div>
-      </section>
+      </div>
+    </section>
         
     <!-- JQuery -->
 
