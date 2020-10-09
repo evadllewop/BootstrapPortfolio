@@ -34,4 +34,13 @@ Roboto font
 
 Comments dipicting each main section in HTML and CSS files
 
+# Link to deployed site
+
+https://evadllewop.github.io/BootstrapPortfolio/
+
+# Screenshot of deployed site
+
+![Bootstrap Porttfolio Screenshot](/assets/images/aboutMe-fullwidth.png)
+![Bootstrap Porttfolio Screenshot](/assets/images/aboutMe-responsive.png)
+
 
