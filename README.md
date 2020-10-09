@@ -20,7 +20,7 @@ Instagram
 
 # Extra
 
-Each page has a sticky header/navbar with a small dropshadow.
+Each page has a sticky header/navbar with a small dropshadow
 
 Custom logo
 
@@ -40,7 +40,7 @@ https://evadllewop.github.io/BootstrapPortfolio/
 
 # Screenshot of deployed site
 
-![Bootstrap Porttfolio Screenshot](/Assets/images/aboutMe-fullwidth.png)
-![Bootstrap Porttfolio Screenshot](/Assets/images/aboutMe-responsive.png)
+![Bootstrap Porttfolio Screenshot](./Assets/Images/aboutMe-fullwidth.png)
+![Bootstrap Porttfolio Screenshot](./Assets/Images/aboutMe-responsive.png)
 
 
