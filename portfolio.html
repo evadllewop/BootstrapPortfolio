@@ -64,7 +64,7 @@
             <div class="mid thumb1 thumbnail"
               onClick="window.open('https://seth-staggs.github.io/Project1/','Flavor Town','resizable,height=800,width=500'); return false;">
               <h2 class="headerTitle">Flavor Town</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event)">
+              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event); urlSethRepo('Project1');">
                 <i class="fab fa-github-square icon">
                 </i>
               </span>
@@ -72,7 +72,8 @@
             <div class="mid thumb2 thumbnail"
               onClick="window.open('https://evadllewop.github.io/PasswordGenerator','Password Generator'); return false;">
               <h2>Password Generator</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event)">
+              <span style="font-size: 1.5em; color: white;"
+                onclick="githubRepo(event); urlMyRepo('PasswordGenerator');">
                 <i class="fab fa-github-square icon">
                 </i>
               </span>
@@ -80,8 +81,8 @@
             <div class="mid thumb3 thumbnail"
               onClick="window.open('https://evadllewop.github.io/WorkDayScheduler/','Workday Scheduler'); return false;">
               <h2>Workday Scheduler</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event)">
-                <i class="fab fa-github-square icon">
+              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event); urlMyRepo('WorkdayScheduler');"">
+                <i class=" fab fa-github-square icon">
                 </i>
               </span>
             </div>
@@ -118,8 +119,17 @@
   <script>
     function githubRepo(event) {
       event.stopPropagation();
-      window.open("https://github.com/evadllewop", "_blank");
     }
+    function urlMyRepo(urlString) {
+      window.open("https://github.com/evadllewop/" + urlString, "_blank");
+    }
+
+    function urlSethRepo(urlString) {
+      window.open("https://github.com/Seth-Staggs/" + urlString, "_blank");
+    }
+
+
+
   </script>
 </body>
 
