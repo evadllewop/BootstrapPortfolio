@@ -9,12 +9,27 @@ body {
 }
 
 
-h2 {
+.headerTitle {
     color: #42596F;
     margin: 20px 0px 0px 20px;
     font-family: 'Roboto';
     font-weight: bold;
 }
+
+
+.mid h2 {
+    text-shadow: 1px 1px 4px #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: .90rem;
+    transform: translate(-50%, -50%);
+  }
 
 /* Hero section */
 
@@ -60,18 +75,58 @@ h2 {
 }
 
 .thumbnail {
+    border-radius: 2%;
     padding: 6px;
     border: solid 1px #e6e6e6;
     width: 340px;
     height: 340px;
+    margin: 10px 0 0 10px;
+    position: relative;
     float: left;
     margin: 1.66%;
     transition: all .2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-    
+
 .thumbnail:hover {
     transform: scale(1.1); 
+    cursor: pointer;
     }
+
+.thumb1 {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../Assets/Images/project1_flavorTown.png);
+    background-size: cover;
+  }
+  .thumb2 {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../Assets/Images/project1_passwordgen.png);
+    background-size: cover;
+  }
+  .thumb3 {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../Assets/Images/project1_scheduler.png);
+    background-size: cover;
+  }
+
+  .icon {
+      margin: 10px;
+      float: inline-start;
+  }
+    
 
 /* Contact form */
 
