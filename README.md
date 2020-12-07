@@ -1,6 +1,6 @@
 # BootstrapPortfolio
 
-CSS and Bootstrap homework assignment
+CSS and Bootstrap Portfolio Site
 
 This portfolio is responsive and includes sematic html for accessability. No extra media inquiries were implemented.
 
