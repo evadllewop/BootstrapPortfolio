@@ -97,8 +97,8 @@ body {
 .thumb1 {
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+        rgba(66, 89, 111, 0.4),
+        rgba(255, 255, 255, 0.2)
     ),
     url(../Assets/Images/project1_flavorTown.png);
     background-size: cover;
@@ -106,8 +106,8 @@ body {
   .thumb2 {
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+        rgba(66, 89, 111, 0.4),
+        rgba(87, 55, 55, 0.2)
     ),
     url(../Assets/Images/project1_passwordgen.png);
     background-size: cover;
@@ -115,10 +115,19 @@ body {
   .thumb3 {
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+        rgba(66, 89, 111, 0.4),
+        rgba(255, 255, 255, 0.2)
     ),
     url(../Assets/Images/project1_scheduler.png);
+    background-size: cover;
+  }
+  .thumb4 {
+    background: 
+    linear-gradient(
+      rgba(66, 89, 111, 0.4),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url(../Assets/Images/project1_burger.png);
     background-size: cover;
   }
 
