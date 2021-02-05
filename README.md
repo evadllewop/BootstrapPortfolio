@@ -20,17 +20,9 @@ Instagram
 
 # Extra
 
-Each page has a sticky header/navbar with a small dropshadow
-
-Custom logo
-
-Portfolio thumbnails that grow upon hover
-
 Hero section that was created with a Jumbotron and then customized
 
 Font Awesome icon in primary "Contact Me" button
-
-Roboto font
 
 Comments dipicting each main section in HTML and CSS files
 
@@ -40,7 +32,7 @@ https://evadllewop.github.io/BootstrapPortfolio/
 
 # Screenshot of deployed site
 
-![Bootstrap Porttfolio Screenshot](./Assets/Images/aboutMe-fullwidth.png)
-![Bootstrap Porttfolio Screenshot](./Assets/Images/aboutMe-responsive.png)
+![Bootstrap Porttfolio Screenshot](./Assets/Images/screenshot_portfolio.png)
+
 
 
