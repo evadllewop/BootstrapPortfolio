@@ -4,47 +4,49 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dave Powell - Portfolio</title>
+  <title>DAVE POWELL - WEB DEVELOPER/DESIGNER</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Font Awesome Javascript file -->
   <script src="https://kit.fontawesome.com/7f0beb1649.js" crossorigin="anonymous"></script>
-
   <!-- Google Fonts stylesheet -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <!-- Bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Custom Styles -->
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="./Assets/custom.css">
+  <link rel="stylesheet" href="./Assets/bootstrap.css">
+  <!-- <link rel="stylesheet" href="./Assets/bootstrap.min.css"> -->
 </head>
 
 <body>
 
   <!-- Navbar -->
 
-  <nav class="navbar sticky-top navbar-expand-lg shadow-sm mb-5 bg-white rounded navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="https://mir-s3-cdn-cf.behance.net/user/230/1510169.53b4dd04072af.png" class="rounded-circle logo"
-        width="50px" height="50px" alt="Dave Powell">
-    </a>
-    <span class="navbar-brand mb-0 h1">Dave Powell</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" id="logo" href="index.html">Dave Powell</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About Me</a>
+          <a class="nav-link" href="index.html">Home
+          </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Portfolio
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-      </ul>
     </div>
   </nav>
 
@@ -52,60 +54,126 @@
 
   <article>
     <div class="container">
-      <div class="card mb-3">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="headerTitle">Portfolio</h2>
-          </div>
-        </div>
-        <hr class="my-4">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mid thumb4 thumbnail"
-              onClick="window.open('https://tranquil-everglades-64817.herokuapp.com/','BurgerLogger'); return false;">
-              <h2 class="headerTitle">Eat Da Burger</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event); urlMyRepo('BurgerLogger');">
-                <i class="fab fa-github-square icon">
-                </i>
-              </span>
-            </div>
-            <div class="mid thumb1 thumbnail"
-              onClick="window.open('https://seth-staggs.github.io/Project1/','Flavor Town','resizable,height=800,width=500'); return false;">
-              <h2 class="headerTitle">Flavor Town</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event); urlSethRepo('Project1');">
-                <i class="fab fa-github-square icon">
-                </i>
-              </span>
-            </div>
-            <div class="mid thumb2 thumbnail"
-              onClick="window.open('https://evadllewop.github.io/PasswordGenerator','Password Generator'); return false;">
-              <h2>Password Generator</h2>
-              <span style="font-size: 1.5em; color: white;"
-                onclick="githubRepo(event); urlMyRepo('PasswordGenerator');">
-                <i class="fab fa-github-square icon">
-                </i>
-              </span>
-            </div>
-            <div class="mid thumb3 thumbnail"
-              onClick="window.open('https://evadllewop.github.io/WorkDayScheduler/','Workday Scheduler'); return false;">
-              <h2>Workday Scheduler</h2>
-              <span style="font-size: 1.5em; color: white;" onclick="githubRepo(event); urlMyRepo('WorkdayScheduler');"">
-                <i class=" fab fa-github-square icon">
-                </i>
-              </span>
-            </div>
-
-
-            <img src="./Assets/Images/02.ScreenShot2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/03. Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/04.Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/05.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/06.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/07.Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-            <img src="./Assets/Images/08.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
-          </div>
+      <!-- <div class="card mb-3"> -->
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Development Projects</h3>
         </div>
       </div>
+      <hr class="my-4">
+
+      <!-- Projects Start Here -->
+
+
+      <div class="row">
+        <div class="col-md-6 projectCard">
+          <div class="card mb-3">
+            <h3 class="card-header">Eat Da' Burger</h3>
+            <div class="card-body">
+              <h5 class="card-title">Southern Methodist University</h5>
+              <h6 class="card-subtitle text-muted">Homework Project</h6>
+            </div>
+            <div class="parent"><img src="./Assets/Images/project_Burger.png" class="screenShot" alt=""></div>
+            <div class="card-body">
+              <p class="card-text">A burger logger created with MySQL, Node, Express, Handlebars and a homemade ORM
+                (yum!). </p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/evadllewop/BurgerLogger" target="_blank"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fab fa-github-square"></i></span></a>
+              <a href="https://tranquil-everglades-64817.herokuapp.com/" target="_blank" class="card-link"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fas fa-external-link-square-alt"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 projectCard">
+          <div class="card mb-3">
+            <h3 class="card-header">Toddler Town</h3>
+            <div class="card-body">
+              <h5 class="card-title">Southern Methodist University</h5>
+              <h6 class="card-subtitle text-muted">Homework Project</h6>
+            </div>
+            <div class="parent"><img src="./Assets/Images/project_ToddlewrTown.png" class="screenShot" alt=""></div>
+            <div class="card-body">
+              <p class="card-text">
+                This application is intended for parents to stay connected with the daycare facility on what's most
+                important them, their children. </p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/evadllewop/Project2" target="_blank"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fab fa-github-square"></i></span></a>
+              <a href="https://nameless-gorge-79209.herokuapp.com/" target="_blank"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fas fa-external-link-square-alt"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 projectCard">
+          <div class="card mb-3">
+            <h3 class="card-header">Flavor Town</h3>
+            <div class="card-body">
+              <h5 class="card-title">Southern Methodist University</h5>
+              <h6 class="card-subtitle text-muted">Homework Project</h6>
+            </div>
+            <div class="parent"><img src="./Assets/Images/project_FlavorTown.png" class="screenShot" alt=""></div>
+            <div class="card-body">
+              <p class="card-text">An application of restaurant recommendations, according to the users geolocation.
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/Seth-Staggs/Project1" target="_blank"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fab fa-github-square"></i></span></a>
+              <a href="#"
+                onClick="window.open('https://seth-staggs.github.io/Project1/','Flavor Town','resizable,height=800,width=500'); return false;"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fas fa-external-link-square-alt"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 projectCard">
+          <div class="card mb-3">
+            <h3 class="card-header">Password Generator</h3>
+            <div class="card-body">
+              <h5 class="card-title">Southern Methodist University</h5>
+              <h6 class="card-subtitle text-muted">Homework Project</h6>
+            </div>
+            <div class="parent"><img src="./Assets/Images/project_Password.png" class="screenShot" alt=""></div>
+            <div class="card-body">
+              <p class="card-text">A random password generator built in Javascript that generates a password based off
+                of user feedback.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/evadllewop/PasswordGeneratorclass=" target="_blank"> <span
+                  style="font-size: 1.75em; color: #333;"><i class="fab fa-github-square"></i></span></a>
+              <a href="https://evadllewop.github.io/PasswordGenerator" target="_blank"><span
+                  style="font-size: 1.75em; color: #333;"><i class="fas fa-external-link-square-alt"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Design Projects</h3>
+          <hr class="my-4">
+        </div>
+
+        <img src="./Assets/Images/02.ScreenShot2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/03. Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/04.Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/05.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/06.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/07.Screen Shot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+        <img src="./Assets/Images/08.ScreenShot 2020-10-06.png" class="thumbnail" alt="Portfolio Thumbnail">
+      </div>
+
+
+
     </div>
   </article>
 
