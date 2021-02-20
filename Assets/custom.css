@@ -46,6 +46,10 @@ body {
     margin-right: 8px;
 }
 
+.portLink {
+    font-weight: bold;
+}
+
 #logo {
     margin-right:40px;
     margin-left:40px;
